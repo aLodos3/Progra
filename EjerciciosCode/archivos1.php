@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Whatevah u talking'bout</p>
+    <?php
+        <form action="" method="post">
+        
+        </form>
+    ?>
 </body>
 </html>

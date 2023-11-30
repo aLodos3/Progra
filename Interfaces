@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="">
+<style>
+	.grid-container{
+		display: grid;
+		background: green;
+		grid-template-rows: 200px 200px 150px;
+		grid-template-columns: 2fr 1fr 1fr;
+	}
+
+	.grid-item{
+		border: 2px solid black;
+	}
+</style>
+</head>
+
+<body>
+<div class="grid-container">
+	<div class="grid-item"></div>
+	<div class="grid-item"></div>
+	<div class="grid-item"></div>
+	<div class="grid-item"></div>
+	<div class="grid-item"></div>
+	<div class="grid-item"></div>
+	<div class="grid-item"></div>
+	<div class="grid-item"></div>
+<!-- Luego se borra el div 9 a ver que pasa-->
+</div>
+</body>
+</html>
